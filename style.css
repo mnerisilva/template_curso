@@ -10,6 +10,7 @@ body {
 
 .wrapper {
     position: relative;
+    min-height: 100vh;
 }
 
 .container {
@@ -25,4 +26,5 @@ body {
 .next {
     position: absolute !important;
     margin-left: calc(100% - 3%);
+    margin-top: calc(100vh - 50vh);
 }
