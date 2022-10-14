@@ -19,8 +19,17 @@ body {
 
 #slider {
     min-height: 90vh;
-    border: solid thin blue;
+    border: solid thin #dedede;
+    border-radius: 6px;
     position: relative;
+    background-color: #fff;
+    padding: 3em 5em 6em 3em;
+}
+
+.preview {
+    position: fixed !important;
+    margin-left: calc(100% - 97%);
+    margin-top: calc(100vh - 50vh);
 }
 
 .next {
@@ -29,6 +38,6 @@ body {
     margin-top: calc(100vh - 50vh);
 }
 
-.next i {
+.next i, .preview i {
     font-size: 2em;
 }
