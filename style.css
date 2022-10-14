@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.container {
+    position: relative;
+}
+
+#slider {
+    min-height: 90vh;
+    border: solid thin blue;
+    position: relative;
+}
+
+.next {
+    position: absolute !important;
+    margin-left: calc(100% - 3%);
+}
