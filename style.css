@@ -23,7 +23,9 @@ body {
     border-radius: 6px;
     position: relative;
     background-color: #fff;
-    padding: 3em 5em 6em 3em;
+    padding: 3em 5em 6em 3em;    
+    max-width: 920px;
+    margin: auto;
 }
 
 .preview {
