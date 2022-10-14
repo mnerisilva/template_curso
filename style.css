@@ -24,7 +24,11 @@ body {
 }
 
 .next {
-    position: absolute !important;
+    position: fixed !important;
     margin-left: calc(100% - 3%);
     margin-top: calc(100vh - 50vh);
+}
+
+.next i {
+    font-size: 2em;
 }
